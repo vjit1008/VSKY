@@ -1,0 +1,185 @@
+.service3{
+      
+    height: 142px;
+    margin-top: 40px;
+    background-color: #f0c74173;
+    width: 600px;
+    margin-left:50px ;
+    border-bottom-right-radius:  15px;
+    border-top-right-radius:  15px;
+    border-left: 3px solid #f0bb0d;;
+    font-family: sans-serif;
+    margin-left: 239px;
+    
+}
+.service3:hover{
+  /* position: fixed; */
+  transform: translate3d(0,-10px,0);
+  box-shadow: 10px 10px 40px 05px rgba(0,0,0, 0.2)
+}
+.service4{
+  /* position: fixed; */
+    height: 142px;
+    margin-top: -141px;
+    background-color: #DED0EF;
+    width: 600px;
+    margin-left:150px ;
+    border-bottom-right-radius:  15px;
+    border-top-right-radius:  15px;
+    border-left: 3px solid #7107f1;
+    font-family: sans-serif;
+    margin-left: 919px;
+}
+.service4:hover{
+  /* position: fixed; */
+  transform: translate3d(0,-10px,0);
+  box-shadow: 10px 10px 40px 05px rgba(0,0,0, 0.2)
+}
+  .section3 button{
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 25px;
+    border:none ;
+    width: 160px;
+    height: 41px;
+    font-size: 14px;
+    color: #f0bb0dbb;;
+    font-weight: 700;
+    
+  }
+  .section4 button{
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 25px;
+    border:none ;
+    width: 160px;
+    height: 41px;
+    font-size: 14px;
+    color: #9e5bf0;
+    font-weight: 700;
+    
+  }
+  .heading3{
+    display: flex;
+    max-width: 50%;
+    /* background-color: aliceblue; */
+
+  }
+  .heading4{
+    display: flex;
+    max-width: 50%;
+    /* background-color: aliceblue; */
+
+  }
+  .heading3 h2{
+    color: #f0bb0d;;
+    margin-left: 30px;
+    font-size: 28px;
+    margin-right: 20px;
+    /* background-color: blueviolet; */
+  }
+  .heading4 h2{
+    color: #7e27e9;
+    margin-left: 30px;
+    font-size: 28px;
+    margin-right: 20px;
+    /* background-color: blueviolet; */
+  }
+    .btn3{
+      margin-top: -50px;
+    }
+    .btn4{
+      margin-top: -50px;
+    }
+   .btn3 button{
+           margin-top: -85px;
+            margin-left: 486px;
+            width: 134px;
+            height: 37px;
+            /* background-color: black ; */
+            background-color: #f0bb0d;;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: 700;
+            color:white ;
+            box-shadow: 10px 10px 50px 0px rgba(10, 13, 201, 0.5) ;
+  }
+   .btn4 button{
+           margin-top: -85px;
+            margin-left: 486px;
+            width: 134px;
+            height: 37px;
+            /* background-color: black ; */
+            background-color: #7e27e9;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: 700;
+            color:white ;
+            box-shadow: 10px 10px 50px 0px rgba(10, 13, 201, 0.5) ;
+  }
+  .btn3 button:hover{
+    background-color: white;
+    color: #f0bb0d;;
+  }
+  .btn4 button:hover{
+    background-color: white;
+    color: #7e27e9;
+  }
+
+  /* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+  .service3, .service4 {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0;
+  }
+  .heading3 h2, .heading4 h2 {
+    font-size: 24px;
+  }
+  .btn3 button, .btn4 button {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+/* Styles for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .service3, .service4 {
+    width: calc(50% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+  }
+  .heading3 h2, .heading4 h2 {
+    font-size: 28px;
+  }
+  .btn3 button, .btn4 button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .service3, .service4 {
+    width: 600px;
+    margin-left: 50px;
+    margin-right: 0;
+    border-radius: 15px;
+  }
+  .heading3 h2, .heading4 h2 {
+    font-size: 28px;
+  }
+  .btn3 button, .btn4 button {
+    margin-left: 486px;
+    width: 134px;
+    height: 37px;
+    margin-top: -85px;
+  }
+}

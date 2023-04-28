@@ -1,0 +1,152 @@
+
+.h1{
+  margin-top: 50px;
+  margin-bottom: -100px;
+  font-weight: 700;
+  color: rgba(37, 66, 194, 0.856);
+}
+.service-card{
+      
+    height: 142px;
+    margin-top: 160px;
+    background-color: #E6F2FB;
+    width: 600px;
+    margin-left:50px ;
+    border-bottom-right-radius:  15px;
+    border-top-right-radius:  15px;
+    border-left: 3px solid rgb(14, 145, 206);
+    font-family: sans-serif;
+    margin-left: 239px;
+    
+}
+.service-card:hover{
+  /* position: fixed; */
+  transform: translate3d(0,-10px,0);
+  box-shadow: 10px 10px 40px 05px rgba(0,0,0, 0.2)
+}
+.service2{
+  /* position: fixed; */
+    height: 142px;
+    margin-top: -141px;
+    background-color: #E0F0D1;
+    width: 600px;
+    margin-left:150px ;
+    border-bottom-right-radius:  15px;
+    border-top-right-radius:  15px;
+    border-left: 3px solid #6bd804;
+    font-family: sans-serif;
+    margin-left: 919px;
+}
+.service2:hover{
+  /* position: fixed; */
+  transform: translate3d(0,-10px,0);
+  box-shadow: 10px 10px 40px 05px rgba(0,0,0, 0.2)
+}
+  .section button{
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 25px;
+    border:none ;
+    width: 160px;
+    height: 41px;
+    font-size: 14px;
+    color: rgb(177, 219, 236);
+    font-weight: 700;
+    
+  }
+  .section2 button{
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 25px;
+    border:none ;
+    width: 160px;
+    height: 41px;
+    font-size: 14px;
+    color: #9aec4c;
+    font-weight: 700;
+    
+  }
+  .heading{
+    display: flex;
+    max-width: 50%;
+    /* background-color: aliceblue; */
+
+  }
+  .heading2{
+    display: flex;
+    max-width: 50%;
+    /* background-color: aliceblue; */
+
+  }
+  .heading h2{
+    color: rgb(80, 156, 238);
+    margin-left: 30px;
+    font-size: 28px;
+    margin-right: 20px;
+    /* background-color: blueviolet; */
+  }
+  .heading2 h2{
+    color: #6bd804;
+    margin-left: 30px;
+    font-size: 28px;
+    margin-right: 20px;
+    /* background-color: blueviolet; */
+  }
+    .btn{
+      margin-top: -50px;
+    }
+    .btn2{
+      margin-top: -50px;
+    }
+   .btn button{
+           margin-top: -85px;
+            margin-left: 486px;
+            width: 134px;
+            height: 37px;
+            /* background-color: black ; */
+            background-color: rgb(80, 156, 238);
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: 700;
+            color:white ;
+            box-shadow: 10px 10px 50px 0px rgba(10, 13, 201, 0.5) ;
+  }
+   .btn2 button{
+           margin-top: -85px;
+            margin-left: 486px;
+            width: 134px;
+            height: 37px;
+            /* background-color: black ; */
+            background-color: #9aec4c;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: 700;
+            color:white ;
+            box-shadow: 10px 10px 50px 0px rgba(10, 13, 201, 0.5) ;
+  }
+  .btn button:hover{
+    background-color: white;
+    color: rgb(80, 156, 238);
+  }
+  .btn2 button:hover{
+    background-color: white;
+    color: #9aec4c;
+  }
+  @media only screen and (max-width: 398px) {
+    .service-card,
+    .service2 {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+    
+    .btn button,
+    .btn2 button {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
