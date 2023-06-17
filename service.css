@@ -1,152 +1,247 @@
+/* .first-row {
+  display: flex;
+  justify-content: center;
+}
 
-.h1{
-  margin-top: 50px;
-  margin-bottom: -100px;
+.service-card {
+  height: 142px;
+  margin-top: 40px;
+  background-color: #f0c74173;
+  width: 600px;
+  margin-left: 50px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-left: 3px solid #f0bb0d;
+  font-family: sans-serif;
+}
+
+.service-card:hover {
+  transform: translate3d(0, -10px, 0);
+  box-shadow: 10px 10px 40px 05px rgba(0, 0, 0, 0.2);
+}
+
+.section button {
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  width: 160px;
+  height: 41px;
+  font-size: 14px;
   font-weight: 700;
-  color: rgba(37, 66, 194, 0.856);
 }
-.service-card{
-      
-    height: 142px;
-    margin-top: 160px;
-    background-color: #E6F2FB;
-    width: 600px;
-    margin-left:50px ;
-    border-bottom-right-radius:  15px;
-    border-top-right-radius:  15px;
-    border-left: 3px solid rgb(14, 145, 206);
-    font-family: sans-serif;
-    margin-left: 239px;
-    
-}
-.service-card:hover{
-  /* position: fixed; */
-  transform: translate3d(0,-10px,0);
-  box-shadow: 10px 10px 40px 05px rgba(0,0,0, 0.2)
-}
-.service2{
-  /* position: fixed; */
-    height: 142px;
-    margin-top: -141px;
-    background-color: #E0F0D1;
-    width: 600px;
-    margin-left:150px ;
-    border-bottom-right-radius:  15px;
-    border-top-right-radius:  15px;
-    border-left: 3px solid #6bd804;
-    font-family: sans-serif;
-    margin-left: 919px;
-}
-.service2:hover{
-  /* position: fixed; */
-  transform: translate3d(0,-10px,0);
-  box-shadow: 10px 10px 40px 05px rgba(0,0,0, 0.2)
-}
-  .section button{
-    margin-top: 20px;
-    margin-left: 30px;
-    background-color: white;
-    border-radius: 25px;
-    border:none ;
-    width: 160px;
-    height: 41px;
-    font-size: 14px;
-    color: rgb(177, 219, 236);
-    font-weight: 700;
-    
-  }
-  .section2 button{
-    margin-top: 20px;
-    margin-left: 30px;
-    background-color: white;
-    border-radius: 25px;
-    border:none ;
-    width: 160px;
-    height: 41px;
-    font-size: 14px;
-    color: #9aec4c;
-    font-weight: 700;
-    
-  }
-  .heading{
-    display: flex;
-    max-width: 50%;
-    /* background-color: aliceblue; */
 
-  }
-  .heading2{
-    display: flex;
-    max-width: 50%;
-    /* background-color: aliceblue; */
+.heading h2 {
+  color: #f0bb0d;
+  margin-left: 30px;
+  font-size: 28px;
+  margin-right: 20px;
+}
 
+.btn button {
+  margin-top: -50px;
+  margin-left: 486px;
+  width: 134px;
+  height: 37px;
+  background-color: #f0bb0d;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  box-shadow: 10px 10px 50px 0px rgba(10, 13, 201, 0.5);
+}
+
+.btn button:hover {
+  background-color: white;
+  color: #f0bb0d;
+}
+
+/* Styles for service3 */
+.service3 {
+  height: 142px;
+  margin-top: 40px;
+  background-color: #f0c74173;
+  width: 600px;
+  margin-left: 50px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-left: 3px solid #f0bb0d;
+  font-family: sans-serif;
+  margin-left: 239px;
+}
+
+.service3:hover {
+  transform: translate3d(0, -10px, 0);
+  box-shadow: 10px 10px 40px 05px rgba(0, 0, 0, 0.2);
+}
+
+.section3 button {
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  width: 160px;
+  height: 41px;
+  font-size: 14px;
+  color: #f0bb0dbb;
+  font-weight: 700;
+}
+
+.heading3 {
+  display: flex;
+  max-width: 50%;
+}
+
+.heading3 h2 {
+  color: #f0bb0d;
+  margin-left: 30px;
+  font-size: 28px;
+  margin-right: 20px;
+}
+
+.btn3 {
+  margin-top: -50px;
+}
+
+.btn3 button {
+  margin-top: -85px;
+  margin-left: 486px;
+  width: 134px;
+  height: 37px;
+  background-color: #f0bb0d;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  box-shadow: 10px 10px 50px 0px rgba(10, 13, 201, 0.5);
+}
+
+.btn3 button:hover {
+  background-color: white;
+  color: #f0bb0d;
+}
+
+/* Styles for service4 */
+.service4 {
+  height: 142px;
+  margin-top: -141px;
+  background-color: #DED0EF;
+  width: 600px;
+  margin-left: 150px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-left: 3px solid #7107f1;
+  font-family: sans-serif;
+  margin-left: 919px;
+}
+
+.service4:hover {
+  transform: translate3d(0, -10px, 0);
+  box-shadow: 10px 10px 40px 05px rgba(0, 0, 0, 0.2);
+}
+
+.section4 button {
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  width: 160px;
+  height: 41px;
+  font-size: 14px;
+  color: #9e5bf0;
+  font-weight: 700;
+}
+
+.heading4 {
+  display: flex;
+  max-width: 50%;
+}
+
+.heading4 h2 {
+  color: #7e27e9;
+  margin-left: 30px;
+  font-size: 28px;
+  margin-right: 20px;
+}
+
+.btn4 {
+  margin-top: -50px;
+}
+
+.btn4 button {
+  margin-top: -85px;
+  margin-left: 486px;
+  width: 134px;
+  height: 37px;
+  background-color: #7e27e9;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  box-shadow: 10px 10px 50px 0px rgba(10, 13, 201, 0.5);
+}
+
+.btn4 button:hover {
+  background-color: white;
+  color: #7e27e9;
+} */
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+  .service3, .service4 {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0;
   }
-  .heading h2{
-    color: rgb(80, 156, 238);
-    margin-left: 30px;
+  .heading3 h2, .heading4 h2 {
+    font-size: 24px;
+  }
+  .btn3 button, .btn4 button {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 368px) and (max-width: 790px) {
+  .service3, .service4 {
+    width: calc(50% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+  }
+  .heading3 h2, .heading4 h2 {
     font-size: 28px;
-    margin-right: 20px;
-    /* background-color: blueviolet; */
   }
-  .heading2 h2{
-    color: #6bd804;
-    margin-left: 30px;
+  .btn3 button, .btn4 button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .service3, .service4 {
+    width: 600px;
+    margin-left: 50px;
+    margin-right: 0;
+    border-radius: 15px;
+  }
+  .heading3 h2, .heading4 h2 {
     font-size: 28px;
-    margin-right: 20px;
-    /* background-color: blueviolet; */
   }
-    .btn{
-      margin-top: -50px;
-    }
-    .btn2{
-      margin-top: -50px;
-    }
-   .btn button{
-           margin-top: -85px;
-            margin-left: 486px;
-            width: 134px;
-            height: 37px;
-            /* background-color: black ; */
-            background-color: rgb(80, 156, 238);
-            border: none;
-            border-radius: 5px;
-            font-size: 15px;
-            font-weight: 700;
-            color:white ;
-            box-shadow: 10px 10px 50px 0px rgba(10, 13, 201, 0.5) ;
+  .btn3 button, .btn4 button {
+    margin-left: 486px;
+    width: 134px;
+    height: 37px;
+    margin-top: -85px;
   }
-   .btn2 button{
-           margin-top: -85px;
-            margin-left: 486px;
-            width: 134px;
-            height: 37px;
-            /* background-color: black ; */
-            background-color: #9aec4c;
-            border: none;
-            border-radius: 5px;
-            font-size: 15px;
-            font-weight: 700;
-            color:white ;
-            box-shadow: 10px 10px 50px 0px rgba(10, 13, 201, 0.5) ;
-  }
-  .btn button:hover{
-    background-color: white;
-    color: rgb(80, 156, 238);
-  }
-  .btn2 button:hover{
-    background-color: white;
-    color: #9aec4c;
-  }
-  @media only screen and (max-width: 398px) {
-    .service-card,
-    .service2 {
-      width: 100%;
-      margin-left: 0;
-      margin-top: 20px;
-    }
-    
-    .btn button,
-    .btn2 button {
-      margin-left: 0;
-      margin-top: 10px;
-    }
-  }
+}

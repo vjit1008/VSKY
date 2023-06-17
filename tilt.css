@@ -79,3 +79,78 @@
     background: rgb(223, 217, 217);
     color: rgb(2, 2, 2);
   }
+
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .flip {
+    width: 300px;
+    height: 225px;
+    margin: 50px auto;
+    margin-top: -250px;
+    margin-left: -150px;
+  }
+
+  .flip .car .front {
+    font-size: 1.5em;
+  }
+
+  .flip .car .face {
+    font-size: 2em;
+    line-height: 150px;
+  }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .cards {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .flip {
+    width: 350px;
+    height: 262.5px;
+    margin: 75px auto;
+    margin-top: -312.5px;
+    margin-left: -125px;
+  }
+
+  .flip .car .front {
+    font-size: 1.5em;
+  }
+
+  .flip .car .face {
+    font-size: 2em;
+    line-height: 175px;
+  }
+}
+
+
+@media only screen and (min-width: 993px) {
+  .cards {
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .flip {
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    margin-top: -350px;
+    margin-left: -110px;
+  }
+
+  .flip .car .front {
+    font-size: 2em;
+  }
+
+  .flip .car .face {
+    font-size: 3em;
+    line-height: 200px;
+  }
+}
